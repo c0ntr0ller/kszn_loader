@@ -1,0 +1,31 @@
+CREATE TABLE sh_exchange.records
+(
+    "recordid" text COLLATE pg_catalog."default",
+    "publicid" text COLLATE pg_catalog."default",
+    "lname" text COLLATE pg_catalog."default",
+    "fname" text COLLATE pg_catalog."default",
+    "mname" text COLLATE pg_catalog."default",
+    snils text COLLATE pg_catalog."default",
+    bdate text COLLATE pg_catalog."default",
+    sex text COLLATE pg_catalog."default",
+    kladr text COLLATE pg_catalog."default",
+    district text COLLATE pg_catalog."default",
+    city text COLLATE pg_catalog."default",
+    punkt text COLLATE pg_catalog."default",
+    street text COLLATE pg_catalog."default",
+    bnum text COLLATE pg_catalog."default",
+    wing text COLLATE pg_catalog."default",
+    appnum text COLLATE pg_catalog."default",
+    wgcode text COLLATE pg_catalog."default",
+    status text COLLATE pg_catalog."default",
+    reason text COLLATE pg_catalog."default",
+    scomment text COLLATE pg_catalog."default",
+    lschets text COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE kszn.records
+    OWNER to postgres;
